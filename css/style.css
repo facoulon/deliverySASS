@@ -1,14 +1,35 @@
 header {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  background-color: lightblue;
+  color: black;
+  text-align: center; }
   header nav {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin: 2% 5%; }
     header nav ul {
       display: flex;
       list-style: none;
       justify-content: space-between; }
       header nav ul li {
         margin-right: 1rem; }
+
+.art {
+  max-width: 35%; }
+
+section {
+  width: 90%;
+  margin: auto;
+  display: flex; }
+
+.right {
+  justify-content: flex-end; }
+
+.left {
+  justify-content: flex-start; }
+
+.center {
+  justify-content: center; }
 
 /*# sourceMappingURL=style.css.map */
