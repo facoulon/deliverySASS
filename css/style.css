@@ -1,3 +1,12 @@
+h1, h2, h3, h4, h5 {
+  font-weight: bold; }
+
+h2 {
+  font-size: 1.5rem; }
+
+h5 {
+  font-size: 1rem; }
+
 header {
   display: flex;
   flex-direction: column;
@@ -14,9 +23,20 @@ header {
       justify-content: space-between; }
       header nav ul li {
         margin-right: 1rem; }
+    header nav ul:first-of-type {
+      padding-left: 10%; }
+  header .img_titre {
+    align-self: center;
+    width: 8%;
+    height: auto;
+    border-radius: 100%; }
+
+header :nth-child(n+1) {
+  margin-bottom: 1.5rem; }
 
 .art {
-  max-width: 35%; }
+  max-width: 40%;
+  margin: 2rem; }
 
 section {
   width: 90%;
