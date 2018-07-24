@@ -49,7 +49,31 @@ section {
 .left {
   justify-content: flex-start; }
 
+button {
+  background-color: white;
+  display: inline-block;
+  height: 58px;
+  width: 20%;
+  align-self: center;
+  border: none;
+  border-radius: 5px; }
+
 .center {
-  justify-content: center; }
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6%; }
+  .center button {
+    background-color: white;
+    display: inline-block;
+    height: 58px;
+    width: 20%;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    background-color: green; }
 
 /*# sourceMappingURL=style.css.map */
