@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  flex-direction: column; }
+  header nav {
+    display: flex;
+    justify-content: space-between; }
+    header nav ul {
+      display: flex;
+      list-style: none;
+      justify-content: space-between; }
+      header nav ul li {
+        margin-right: 1rem; }
+
+/*# sourceMappingURL=style.css.map */

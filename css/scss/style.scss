@@ -1,0 +1,18 @@
+$flex: flex;
+
+header {
+  display: $flex;
+  flex-direction: column;
+  nav {
+    display: $flex;
+    justify-content: space-between;
+   ul {
+    display: $flex;
+    list-style: none;
+    justify-content: space-between;
+      li {
+      margin-right: 1rem;
+      }
+   }
+  }
+}
